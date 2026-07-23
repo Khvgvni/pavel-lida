@@ -1,5 +1,37 @@
 <!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Нити любви — Павел и Лида</title><meta name="description" content="Свадебное приглашение Павла и Лиды Лоншаковых — 4 сентября 2026 года."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500&display=swap" rel="stylesheet"><style>
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f4f1e9;color:#171614;font-family:Manrope,sans-serif;font-weight:300}main{overflow:hidden}h1,h2,h3,p{margin-top:0}h2{margin-bottom:24px;font:500 clamp(42px,7vw,78px)/.95 'Cormorant Garamond',serif;letter-spacing:-.03em}.pad{padding:110px max(24px,calc((100vw - 1100px)/2))}.k{margin-bottom:25px;font-size:10px;font-weight:500;letter-spacing:.35em;text-transform:uppercase}.hero{min-height:100svh;display:grid;place-items:center;padding:55px 24px;background:#efede6}.card{width:min(620px,92vw);min-height:700px;padding:74px 36px 54px;display:flex;flex-direction:column;align-items:center;text-align:center}.ey,.surname{font-size:9px;letter-spacing:.35em;text-transform:uppercase}.mono{margin:85px 0 24px;font:italic 22px 'Cormorant Garamond',serif}.card h1{margin:0;max-width:400px;font:500 clamp(54px,9vw,84px)/.78 'Cormorant Garamond',serif;letter-spacing:-.06em;text-transform:uppercase}.names{margin:36px 0 12px;font:italic 30px 'Cormorant Garamond',serif}.date{display:flex;gap:10px;font:500 17px 'Cormorant Garamond',serif;letter-spacing:.22em}.surname{margin-top:auto}.welcome{text-align:center;background:#efede6}.lead{max-width:680px;margin:auto;font:400 clamp(21px,3vw,30px)/1.55 'Cormorant Garamond',serif}.details{text-align:center;background:#e9e6de}.grid{display:grid;grid-template-columns:repeat(4,1fr);border-block:1px solid #b9b4aa}.detail{min-height:160px;padding:32px 20px;border-right:1px solid #b9b4aa;display:flex;flex-direction:column;justify-content:space-between}.detail:last-child{border:0}.detail span{font-size:9px;letter-spacing:.25em;text-transform:uppercase;color:#746f66}.detail strong{font:400 24px 'Cormorant Garamond',serif}.button{display:block;width:max-content;margin:45px auto 0;padding:16px 28px;color:#171614;border:1px solid #8b857b;font-size:10px;letter-spacing:.2em;text-transform:uppercase;text-decoration:none}.timeline{text-align:center}.event{max-width:680px;margin:40px auto 0;padding-top:28px;border-top:1px solid #b9b4aa}.event time{font:500 28px 'Cormorant Garamond',serif}.event h3{margin:10px 0;font:500 31px 'Cormorant Garamond',serif}.event p{color:#5e5a55;line-height:1.7}.dress{display:grid;grid-template-columns:.8fr 1.2fr;align-items:center;gap:clamp(45px,8vw,110px);background:#efede6}.dress p{font:400 20px/1.55 'Cormorant Garamond',serif;color:#575249}.palette{display:flex;gap:10px;margin-top:32px}.palette i{width:34px;height:34px;border-radius:50%}.dress img{display:block;width:100%;aspect-ratio:1.15/1;object-fit:cover}.note{text-align:center;background:#e9e6de}.age{margin:15px auto 25px;width:72px;height:72px;display:grid;place-items:center;border:1px solid;border-radius:50%;font:500 24px 'Cormorant Garamond',serif}.note p,.contact p{max-width:580px;margin:0 auto 18px;font:400 21px/1.5 'Cormorant Garamond',serif}.contact{text-align:center}.phone{display:block;width:max-content;margin:35px auto 10px;color:#171614;text-decoration:none;font:400 clamp(38px,7vw,76px) 'Cormorant Garamond',serif;border-bottom:1px solid #9c968c}footer{padding:75px 24px;text-align:center;background:#e9e6de}.fm{font:400 38px 'Cormorant Garamond',serif}footer p{margin:18px 0 0;font-size:9px;letter-spacing:.3em;text-transform:uppercase;color:#766f65}@media(max-width:760px){.pad{padding:80px 22px}.card{min-height:590px}.grid{grid-template-columns:1fr 1fr}.detail:nth-child(2){border-right:0}.detail:nth-child(-n+2){border-bottom:1px solid #b9b4aa}.dress{grid-template-columns:1fr;text-align:center}.palette{justify-content:center;flex-wrap:wrap}}
+/* Mobile-first refinements */
+body { text-align: center; }
+.dress p, .event p, .note p, .contact p, .lead { margin-left: auto; margin-right: auto; }
+.palette { justify-content: center; }
+.dress img { margin: 0 auto; }
+.button { max-width: 100%; }
+
+@media (max-width: 760px) {
+  body { overflow-wrap: anywhere; }
+  h2 { font-size: clamp(38px, 12vw, 52px); line-height: 1; }
+  .hero { min-height: 100svh; padding: 28px 18px; }
+  .card { width: 100%; min-height: 82svh; padding: 42px 12px 30px; }
+  .mono { margin: 48px 0 20px; }
+  .card h1 { font-size: clamp(48px, 16vw, 64px); line-height: .82; }
+  .names { font-size: 28px; }
+  .date { font-size: 16px; }
+  .pad { padding: 70px 18px; }
+  .k { font-size: 9px; line-height: 1.7; }
+  .lead, .dress p, .note p, .contact p { font-size: 20px; }
+  .grid { grid-template-columns: 1fr; }
+  .detail { min-height: auto; padding: 25px 14px; border-right: 0; border-bottom: 1px solid #b9b4aa; gap: 12px; }
+  .detail:nth-child(2) { border-bottom: 1px solid #b9b4aa; }
+  .detail:last-child { border-bottom: 0; }
+  .detail strong { font-size: 23px; }
+  .event { margin-top: 30px; padding: 26px 8px 0; }
+  .dress { grid-template-columns: 1fr; gap: 38px; }
+  .palette i { width: 30px; height: 30px; }
+  .dress img { width: calc(100% + 36px); max-width: none; margin-left: -18px; aspect-ratio: 1/1; object-position: center; }
+  .phone { font-size: clamp(32px, 10vw, 48px); }
+  footer { padding: 60px 18px; }
+}
+
 </style></head><body><main>
 <section class="hero"><div class="card"><p class="ey">Свадебное приглашение</p><div class="mono">П · Л</div><h1>Нити любви</h1><p class="names">Павел &amp; Лида</p><div class="date"><span>04</span>·<span>09</span>·<span>26</span></div><p class="surname">Лоншаковы</p></div></section>
 <section class="welcome pad"><p class="k">Дорогие родные и друзья</p><h2>Мы создаём семью</h2><p class="lead">Один день, одна история и множество нитей, которые связали нас вместе. Будем счастливы разделить этот особенный вечер с вами.</p></section>
